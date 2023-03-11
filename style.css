@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.flex {
+  display: flex;
+}
+#box1 {
+  height: 250px;
+  width: 30%;
+}
+#box2 {
+  height: 200px;
+  width: 100%;
+  background-color: paleturquoise;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.title {
+  margin: 1em;
+  background-color: lavender;
+  padding: 5em;
+}
+/*Mobile and small screen layout*/
+@media only screen and (max-width: 500px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
